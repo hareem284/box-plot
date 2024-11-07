@@ -12,3 +12,5 @@ for i in lables:
     plt.show()
 sb.violinplot(data=rf,x='continent',y='life_exp',palette='viridis')
 plt.show()
+sb.boxplot(data=rf,x='country',y='population',palette='viridis')
+plt.show()
